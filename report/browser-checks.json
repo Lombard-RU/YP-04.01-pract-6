@@ -1,0 +1,304 @@
+{
+  "screens": [
+    {
+      "width": 360,
+      "path": "/",
+      "url": "http://localhost:5561/"
+    },
+    {
+      "width": 360,
+      "path": "/books",
+      "url": "http://localhost:5561/books"
+    },
+    {
+      "width": 360,
+      "path": "/authors",
+      "url": "http://localhost:5561/authors"
+    },
+    {
+      "width": 360,
+      "path": "/genres",
+      "url": "http://localhost:5561/genres"
+    },
+    {
+      "width": 360,
+      "path": "/publishers",
+      "url": "http://localhost:5561/publishers"
+    },
+    {
+      "width": 360,
+      "path": "/readers",
+      "url": "http://localhost:5561/readers"
+    },
+    {
+      "width": 360,
+      "path": "/books/1",
+      "url": "http://localhost:5561/books/1"
+    },
+    {
+      "width": 360,
+      "path": "/books/new",
+      "url": "http://localhost:5561/books/new"
+    },
+    {
+      "width": 360,
+      "path": "/readers/new",
+      "url": "http://localhost:5561/readers/new"
+    },
+    {
+      "width": 360,
+      "path": "/admin/users",
+      "url": "http://localhost:5561/admin/users"
+    },
+    {
+      "width": 360,
+      "path": "/admin/stats",
+      "url": "http://localhost:5561/admin/stats"
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "url": "http://localhost:5561/"
+    },
+    {
+      "width": 768,
+      "path": "/books",
+      "url": "http://localhost:5561/books"
+    },
+    {
+      "width": 768,
+      "path": "/authors",
+      "url": "http://localhost:5561/authors"
+    },
+    {
+      "width": 768,
+      "path": "/genres",
+      "url": "http://localhost:5561/genres"
+    },
+    {
+      "width": 768,
+      "path": "/publishers",
+      "url": "http://localhost:5561/publishers"
+    },
+    {
+      "width": 768,
+      "path": "/readers",
+      "url": "http://localhost:5561/readers"
+    },
+    {
+      "width": 768,
+      "path": "/books/1",
+      "url": "http://localhost:5561/books/1"
+    },
+    {
+      "width": 768,
+      "path": "/books/new",
+      "url": "http://localhost:5561/books/new"
+    },
+    {
+      "width": 768,
+      "path": "/readers/new",
+      "url": "http://localhost:5561/readers/new"
+    },
+    {
+      "width": 768,
+      "path": "/admin/users",
+      "url": "http://localhost:5561/admin/users"
+    },
+    {
+      "width": 768,
+      "path": "/admin/stats",
+      "url": "http://localhost:5561/admin/stats"
+    },
+    {
+      "width": 1280,
+      "path": "/",
+      "url": "http://localhost:5561/"
+    },
+    {
+      "width": 1280,
+      "path": "/books",
+      "url": "http://localhost:5561/books"
+    },
+    {
+      "width": 1280,
+      "path": "/authors",
+      "url": "http://localhost:5561/authors"
+    },
+    {
+      "width": 1280,
+      "path": "/genres",
+      "url": "http://localhost:5561/genres"
+    },
+    {
+      "width": 1280,
+      "path": "/publishers",
+      "url": "http://localhost:5561/publishers"
+    },
+    {
+      "width": 1280,
+      "path": "/readers",
+      "url": "http://localhost:5561/readers"
+    },
+    {
+      "width": 1280,
+      "path": "/books/1",
+      "url": "http://localhost:5561/books/1"
+    },
+    {
+      "width": 1280,
+      "path": "/books/new",
+      "url": "http://localhost:5561/books/new"
+    },
+    {
+      "width": 1280,
+      "path": "/readers/new",
+      "url": "http://localhost:5561/readers/new"
+    },
+    {
+      "width": 1280,
+      "path": "/admin/users",
+      "url": "http://localhost:5561/admin/users"
+    },
+    {
+      "width": 1280,
+      "path": "/admin/stats",
+      "url": "http://localhost:5561/admin/stats"
+    },
+    {
+      "width": 1920,
+      "path": "/",
+      "url": "http://localhost:5561/"
+    },
+    {
+      "width": 1920,
+      "path": "/books",
+      "url": "http://localhost:5561/books"
+    },
+    {
+      "width": 1920,
+      "path": "/authors",
+      "url": "http://localhost:5561/authors"
+    },
+    {
+      "width": 1920,
+      "path": "/genres",
+      "url": "http://localhost:5561/genres"
+    },
+    {
+      "width": 1920,
+      "path": "/publishers",
+      "url": "http://localhost:5561/publishers"
+    },
+    {
+      "width": 1920,
+      "path": "/readers",
+      "url": "http://localhost:5561/readers"
+    },
+    {
+      "width": 1920,
+      "path": "/books/1",
+      "url": "http://localhost:5561/books/1"
+    },
+    {
+      "width": 1920,
+      "path": "/books/new",
+      "url": "http://localhost:5561/books/new"
+    },
+    {
+      "width": 1920,
+      "path": "/readers/new",
+      "url": "http://localhost:5561/readers/new"
+    },
+    {
+      "width": 1920,
+      "path": "/admin/users",
+      "url": "http://localhost:5561/admin/users"
+    },
+    {
+      "width": 1920,
+      "path": "/admin/stats",
+      "url": "http://localhost:5561/admin/stats"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+  ],
+  "offline_retry": true,
+  "keyboard_login": true,
+  "tab_sequence": [
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    },
+    {
+      "tag": "FLT-SEMANTICS",
+      "label": null,
+      "role": "button"
+    }
+  ]
+}

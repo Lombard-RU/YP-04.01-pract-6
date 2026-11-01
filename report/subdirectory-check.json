@@ -1,0 +1,7 @@
+{
+  "base_href": "/library/",
+  "direct_link": "/library/books/1",
+  "redirect_to_login_with_from": "http://localhost:5563/library/login?from=/books/1",
+  "reload_ok": true,
+  "page_errors": []
+}

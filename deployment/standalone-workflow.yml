@@ -1,0 +1,69 @@
+name: Test and publish library
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.7'
+          channel: stable
+          cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: flutter pub get
+      - run: dart format --output=none --set-exit-if-changed lib test
+      - run: flutter analyze
+      - run: flutter test --no-pub
+      - run: node --test api/mock-server.test.js api/auth.test.js
+      - name: Validate API setting and compute base href
+        env:
+          API_BASE_URL: ${{ vars.API_BASE_URL }}
+          REPOSITORY: ${{ github.event.repository.name }}
+        run: |
+          if [[ "$API_BASE_URL" != https://* ]]; then
+            echo "Set repository variable API_BASE_URL to the public HTTPS API URL (including /api)."
+            exit 1
+          fi
+          if [[ "$REPOSITORY" == *.github.io ]]; then
+            echo 'BASE_HREF=/' >> "$GITHUB_ENV"
+          else
+            echo "BASE_HREF=/$REPOSITORY/" >> "$GITHUB_ENV"
+          fi
+      - name: Build release
+        env:
+          API_BASE_URL: ${{ vars.API_BASE_URL }}
+        run: |
+          flutter build web --release --no-web-resources-cdn \
+            --base-href "$BASE_HREF" --dart-define="API_BASE_URL=$API_BASE_URL"
+          cp build/web/index.html build/web/404.html
+          touch build/web/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

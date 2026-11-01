@@ -1,0 +1,86 @@
+{
+  "baseline": {
+    "files": 42,
+    "bytes": 42882399,
+    "gzip_bytes": 14305863,
+    "first_frame_ms": [
+      2583.100000023842,
+      801.3000000119209,
+      748
+    ],
+    "median_first_frame_ms": 801.3000000119209,
+    "transfer_bytes": [
+      9163963,
+      9163963,
+      9163963
+    ],
+    "loaded_wasm_resources": [
+      [
+        "http://localhost:5560/canvaskit/chromium/canvaskit.wasm"
+      ],
+      [
+        "http://localhost:5560/canvaskit/chromium/canvaskit.wasm"
+      ],
+      [
+        "http://localhost:5560/canvaskit/chromium/canvaskit.wasm"
+      ]
+    ]
+  },
+  "web": {
+    "files": 39,
+    "bytes": 42561601,
+    "gzip_bytes": 14130676,
+    "first_frame_ms": [
+      1135.6000000238419,
+      665,
+      721.1999999880791
+    ],
+    "median_first_frame_ms": 721.1999999880791,
+    "transfer_bytes": [
+      8843701,
+      8843701,
+      8843701
+    ],
+    "loaded_wasm_resources": [
+      [
+        "http://localhost:5561/canvaskit/chromium/canvaskit.wasm"
+      ],
+      [
+        "http://localhost:5561/canvaskit/chromium/canvaskit.wasm"
+      ],
+      [
+        "http://localhost:5561/canvaskit/chromium/canvaskit.wasm"
+      ]
+    ]
+  },
+  "wasm": {
+    "files": 41,
+    "bytes": 45272972,
+    "gzip_bytes": 15135439,
+    "first_frame_ms": [
+      534.8000000119209,
+      473.4000000357628,
+      433.69999998807907
+    ],
+    "median_first_frame_ms": 473.4000000357628,
+    "transfer_bytes": [
+      6569270,
+      6569270,
+      6569270
+    ],
+    "loaded_wasm_resources": [
+      [
+        "http://localhost:5562/canvaskit/skwasm.wasm",
+        "http://localhost:5562/main.dart.wasm"
+      ],
+      [
+        "http://localhost:5562/canvaskit/skwasm.wasm",
+        "http://localhost:5562/main.dart.wasm"
+      ],
+      [
+        "http://localhost:5562/canvaskit/skwasm.wasm",
+        "http://localhost:5562/main.dart.wasm"
+      ]
+    ]
+  }
+}
